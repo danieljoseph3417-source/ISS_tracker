@@ -3,7 +3,7 @@
 ## Overview
 An automated ETL (Extract, Transform, Load) pipeline that tracks the International Space Station in real-time. The system ingests telemetry data from the OpenNotify API, stores it in a SQLite warehouse, and exports it for visualization in Tableau.
 
-
+<img width="1009" height="578" alt="Dashboard" src="https://github.com/user-attachments/assets/d5b5ae54-904c-40c0-9bef-06664d1d36b4" />
 
 ## Architecture
 * **Extraction:** Python `requests` module polls the ISS API every 5 seconds.
